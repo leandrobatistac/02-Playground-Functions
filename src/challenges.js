@@ -23,22 +23,36 @@ function concatName(lista) {
   let virgula = ', '
 
   return ultimoElemento.concat(virgula, primeiroElemento);
-
 }
 
 // Desafio 5
-function footballPoints() {
-  // seu código aqui
+function footballPoints(wins, ties) {
+  let resultado = ((wins*3)+(ties*1));
+  return resultado;
 }
 
 // Desafio 6
-function highestCount() {
-  // seu código aqui
+function highestCount(array) {
+  let maiorNumero = -9999999;
+  let contadorAtual = 0;
+
+  for(let index in array){
+      if(array[index] > maiorNumero){
+          maiorNumero = array[index];
+      }
+  }
+
+  for(let index2 in array){
+      if(array[index2] === maiorNumero){
+          contadorAtual = contadorAtual+1;
+      }
+  }
+  return contadorAtual;
 }
 
 // Desafio 7
-function catAndMouse() {
-  // seu código aqui
+function catAndMouse(mouse, cat1, cat2) {
+
 }
 
 // Desafio 8
