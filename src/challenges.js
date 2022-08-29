@@ -108,17 +108,16 @@ function decode(stringFrase) {
 
 // Desafio 10
 function techList(tecnologia, nome) {
-    
   let resultado = [];
 
-  if(tecnologia.length === 0){
-    return 'Vazio!'
+  if (tecnologia.length === 0) {
+    return 'Vazio!';
   }
 
-  for(let key of tecnologia.sort()){
+  for (let key of tecnologia.sort()) {
     let objeto = {
       tech: key,
-      name: nome
+      name: nome,
     };
 
     resultado.push(objeto);
@@ -126,7 +125,7 @@ function techList(tecnologia, nome) {
 
   return resultado;
 }
-n
+
 module.exports = {
   calcArea,
   catAndMouse,

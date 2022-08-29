@@ -1,14 +1,8 @@
 const { concatName } = require("./challenges");
 
 // Desafio 11
-function generatePhoneNumber(numero) {
-  let resultado = '';
-
-  for(let index in numero){
-    if(index === 0 || index === 1){
-      resultado.concat('(', )
-    }
-  }
+function generatePhoneNumber() {
+  // seu código aqui
 }
 
 // Desafio 12
